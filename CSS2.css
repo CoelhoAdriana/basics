@@ -1,0 +1,213 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: white url(images/css2-fundo.png) repeat-x;
+    margin: 0 auto;
+}
+a, a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+input {
+    padding: 5px;
+    width: 130px;
+    font-size: 0.9em;
+}
+ul {
+    list-style: none;    
+}
+
+/* layout, classes, ids */
+#header {
+    height: 150px;
+    background: url(images/css2-detalhe-topo.png) no-repeat top right;
+    padding: 30px 12px 0 12px;
+    margin: 0px auto 70px auto;    
+}
+.logo {
+    width: 152px;
+    height: 66px;
+    background: url(images/css2-logo.png) no-repeat center;
+    color: transparent;
+    margin-bottom: 35px;
+}
+li.top_menu {
+    list-style-type: none;
+    background: #b10333 url(images/css2-divisor.png) repeat-y;
+    float: left;
+    padding: 5px 42px;
+}
+#header a:hover {
+        color: #69001d;
+}
+li.present {
+    background: #de003e url(images/css2-divisor.png) repeat-y;;
+    color: white;
+    list-style-type: none;
+    float: left;
+    padding: 5px 42px;
+    cursor: text;
+}
+li.present a {
+    cursor: text;
+}
+.body {
+    width: 750px;
+    margin: auto;
+}
+#main3 {
+    width: 270px;
+    background: #f3f3f3;
+    margin-left: 195px;
+    float: left;
+}
+#secondary {
+    width: 270px;
+    background: #f3f3f3 url(images/css2-fundo-caixa.png);
+    float: right;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+#left_menu3 {
+    width: 180px;
+    background: #f3f3f3 url(images/css2-fundo-caixa.png);
+    float: left; 
+    margin: 0 15px 10px -465px;
+    padding-bottom: 40px;
+}
+#main2 {
+    width: 550px;
+    background: #f3f3f3;
+    float: right;
+    padding: 2px 2px 2px 15px;
+}
+#left_menu2 {
+    width: 180px;
+    background: #f3f3f3 url(images/css2-fundo-caixa.png);
+    float: left; 
+    padding-bottom: 40px;
+    /*margin-right: 3px;*/
+}
+#main1 {
+    width: 700px;
+    background: #f3f3f3 url(images/css2-fundo-caixa.png);
+    margin: auto;
+}
+.boxes {
+    margin-bottom: 20px;
+}
+img.boxes {
+    display: block;
+    width: 250px;
+    margin: 3px auto;   
+    padding: 0;
+    border: #dfdfdf solid 3px;
+}
+#main1 img.boxes {
+    width: 650px;
+}
+#main2 img.boxes {
+    width: 450px;
+}
+.condensed2 {
+    width: 530px;
+    text-align: justify;
+}
+.condensed li a img {
+    float: left;
+    width: 80px;
+    padding-right: 3px;
+    margin: 0;
+    border: #dfdfdf solid 1px;
+}
+h2.boxes {
+    background: #294c71;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+    text-transform: lowercase;
+}
+h3.boxes {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3px;
+    font-size: 0.9em;
+    background: #b10333;
+    color: #fff;
+}
+.condensed h3 {
+    text-transform: uppercase;
+    padding: 2px;
+    margin: 0;
+    font-size: 0.8em;
+    color: #3e7ab9;
+}
+#main3 h2.boxes {
+    background: #294c71;
+    color: white;
+    font-size: 1.2em;
+}
+p.boxes {
+    background: #f3f3f3;
+    font-size: 0.9em;
+}
+.condensed a {
+    font-size: 0.8em;
+    float: left;
+    color: #000;
+    /*background: #f3f3f3; */
+}
+.condensed li {
+    width: 100%;
+    background: #f3f3f3;
+}
+.condensed li:hover {
+    background: #dfdfdf;
+    padding: auto;
+}
+li.boxes {
+    background: white;
+    list-style-type: none;
+    line-height: 30px;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.condensed li {
+    list-style-type: none;
+    padding: 2px;
+    float: left;    
+}
+.boxes a {    
+    padding: 5px;
+    background: white;
+    text-decoration: none;
+    text-align: center;
+    color: #294c71;    
+}
+.boxes a:hover {
+    background: #f9f9f9 url(images/css2-marcador.png) no-repeat left;
+    color: black;
+    text-align: center;
+    padding-left: 18px;
+}
+input.submit {
+    border: px solid #870529;
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    margin: 8px;
+}
+#footer {
+    clear: both;
+    background: #294c71;
+    padding: 8px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    color: #69001d;
+}
