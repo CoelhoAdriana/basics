@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family:  Helvetica, "Trebuchet MS", sans-serif;
+    background: #fff url(images/CSS3-bg.png);
+    margin: 15px auto;
+    max-width: 1180px;
+}
+header {
+    background: #0D6ADB;
+    margin: 0 auto;
+    min-width: 740px;
+    max-width: 1180px;
+}
+a {
+    text-decoration: none;
+}
+/* header info */
+#top {
+    background: #00acde;
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+}
+#top-logo h1 {
+    background-image: url(images/CSS3-logo.png);
+    height: 64px;
+    width: 151px;
+    margin: 15px;
+}
+#top-logo a {
+    color: transparent;
+}
+#top-logo {
+    background: url(images/CSS3-topo-imagem-principal.png) no-repeat;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#top-logo img {
+    padding: 15px;
+}
+#top-menu {
+    background: url(images/CSS3-topo-imagem-lateral.png) no-repeat;
+    width: 450px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#menu {
+    float: right;
+    font-size: 1.3em;
+    margin: 8px;
+}
+#v-menu {
+    margin-top: 45px;
+}
+#menu a, #v-menu a {
+    padding: 0 6px;
+    text-decoration: none;
+    font-size: 0.58em;
+    font-weight: bold;
+    color: #06154B;
+    text-transform: uppercase;
+    cursor: crosshair;
+}
+#menu a:hover, #v-menu a:hover {
+    background: #06154B;
+    color: #00acde;
+}
+#menu li, #menu ul {
+    list-style: none;
+    display: inline;
+}
+#menu ul {
+    border-bottom: 1px solid #06154B;
+    border-top: 1px solid #06154B;
+    line-height: 1em;
+    padding-bottom: 4px;
+}
+#v-menu li, #v-menu ul {
+    list-style: none;
+    display: block;
+    padding: 8px;
+    margin-left: 36px;
+}
+#v-menu a, #v-menu a:hover {
+    font-size: 0.8em;
+    padding: 8px;
+    cursor: pointer;
+}
+#v-menu img {
+    float: right;
+    src: url(images/CSS3-depoimento.png);
+    padding: 5px;
+}
+/* main page info */
+.main {
+    background: url(images/CSS3-bg-container.png) center repeat-y;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    height: 310px; 
+}
+#left2 {
+    float: left;
+    width: 49.5%;
+    background: url(images/CSS3-bg-area-principal.png) repeat-x top;
+}
+#left2 h2 {
+    color: #06154B;
+    font-size: 1.2em;
+    padding: 30px 12px 5px 12px;
+}
+#left2 p {
+    color: #06154B;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    font-style: italic;
+    padding: 20px;
+}
+#right2 {
+    float: right;
+    width: 50%;
+    background: url(images/CSS3-bg-area-lateral.png) repeat-x top;
+    padding-top: 40px;
+}
+#right2 img {
+    height: 66px;
+    border: 2px solid #0D6ADB;
+    float: left;
+    margin-right: 8px;
+}
+#right2 a {
+    text-decoration: none;
+    color: #fff;
+}
+#right2 h4 {
+    font-size: 1em;
+    padding-top: 12px;
+    background: url(images/CSS3-ornamento.png) right no-repeat;
+}
+#right2 p {
+    color: #0D6ADB;
+    font-size: 0.8em;
+    text-align: justify;
+    padding-top: 8px;
+}
+#right2 li  {
+    min-height: 70px;
+    max-width: 420px;;
+    list-style: none;
+    padding: 5px 8px 12px 12px;
+    margin: auto;
+}
+.efeito-link li:hover {
+    background: #ccc;
+    display: block;
+    min-height: 70px;
+}
+#footer {
+    clear: both;
+    text-align: center;
+    margin: 12px auto;
+    padding: 8px;
+}
+#footer a {
+    text-decoration: none;
+    color: #06154B;
+    padding: 3px;
+}
+#footer a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #1AB7F0;
+    padding: 3px;
+}
