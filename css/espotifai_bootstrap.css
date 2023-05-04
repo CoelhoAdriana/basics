@@ -1,0 +1,137 @@
+.logo {
+    color: transparent;
+    margin-right: -30px;
+}
+ul {
+    list-style: none;
+}
+body {
+    background: url(../images/spotify_capa.png), url(../images/spotify_ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+    height: 100%;
+    overflow-x: hidden;
+}
+.shade {
+    background: rgba(0, 0, 0, 0.6);
+}
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+.navbar-nav .nav-item .nav-link {
+    color: wheat;
+}
+.navbar-nav .nav-item .nav-link:hover {
+    color: grey;
+}
+.divider {
+    width: 1px;
+    background: wheat;
+    margin: 10px 6px;
+}
+#home, html {
+    height: 100%;
+    text-align: center;
+}
+.home {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+}
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px, 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-purple {
+    background: #7c26f8;
+}
+.btn-purple:hover {
+    background: #6207e3;
+    color: white;
+}
+.btn-white {
+    border: 2px solid white;
+}
+.btn-white:hover {
+    background: white;
+    color: black;
+}
+#servico {
+    background: white;
+}
+#servico img {
+    margin: 5px;
+    border: 2px solid wheat;
+}
+#servico, #recursos {
+    text-align: left;
+    padding: 20px 0;
+}
+#servico h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    padding-left: 20px;
+    color: #7c25f8;
+}
+#servico h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    padding-left: 20px;
+    padding-top: 30px;
+    color: #7c25f8;
+}
+#servico p {
+    letter-spacing: -0.05em;
+    padding-left: 20px;
+}
+#recursos p {
+    padding-left: 10px;
+    font-weight: 350;
+    color: white;
+}
+#recursos h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+    padding-left: 10px;
+    color: white;
+}
+#recursos h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    padding-left: 10px;
+    padding-top: 30px;
+    color: #9bf0e1;
+}
+footer {
+    background: #000;
+    min-height: 160px;
+    padding-top: 20px;
+    text-align: left;
+    color: #919496;
+    font-size: 0.8em;
+}
+footer .navbar-nav a {
+    color: white;
+    padding: 0px;
+}
+footer ul li {
+    float: right;
+    margin: 0 3px;
+    position: relative;
+}
+footer ul li img {
+    margin-bottom: 30px;
+}
